@@ -1,0 +1,26 @@
+.servers-count {
+	display: inline-block;
+	width: 50%;
+	padding-bottom: 12px;
+	color: var(--color-table-header);
+
+	&__title {
+		width: 74px;
+		font-size: var(--font-size-xl);
+		font-weight: var(--font-weigth-semiBold);
+	}
+
+	&__text {
+		width: 167px;
+		font-size: var(--font-size-s);
+		font-weight: var(--font-weigth-regular);
+	}
+}
+
+@media (max-width: 450px) {
+	.servers-count {
+		&__title {
+			font-size: var(--font-size-l);
+		}
+	}
+}

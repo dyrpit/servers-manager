@@ -1,0 +1,31 @@
+.header {
+	height: 70px;
+	width: 100%;
+	background-color: var(--bg-color-header);
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	border-right: 2px solid var(--color-border-header);
+	padding: 12px 31px 12px 0;
+	margin-right: 10px;
+	align-items: center;
+
+	&__sign {
+		height: 17px;
+		width: 17px;
+		margin-left: 27px;
+		margin-right: 12px;
+		border: 2px solid var(--color-header-sign);
+		border-radius: 50%;
+	}
+
+	&__title {
+		color: white;
+		line-height: 1;
+		font-family: var(--font-monte);
+		letter-spacing: 1px;
+	}
+}

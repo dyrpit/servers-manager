@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--font-monte: 'Montserrat', sans-serif;
+	--font-open-sans: 'Open Sans', sans-serif;
+	--font-weigth-semiBold: 600;
+	--font-weigth-regular: '400';
+	--color-header-sign: #7d82f7;
+	--bg-color-header: #494e61;
+	--color-border-header: #757b8f;
+	--color-border-table: #ededf0;
+	--color-table-header: #494e61;
+	--color-table-description: #9ca7d3;
+	--color-search-input: #a9aec1;
+	--color-offline: #ea5885;
+	--color-online: #33cad4;
+	--color-background: #f2f3f6;
+	--border-color-search-input: #d4d7e1;
+	--font-size-s: 12px;
+	--font-size-m: 14px;
+	--font-size-l: 16px;
+	--font-size-xl: 18px;
+}
+
+html {
+	font-size: var(--font-size-m);
+}
+
+body {
+	font-family: var(--font-open-sans);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	min-height: 100vh;
+	background-color: var(--color-background);
+}
+
+@media (max-width: 450px) {
+	html {
+		font-size: var(--font-size-s);
+	}
+}
